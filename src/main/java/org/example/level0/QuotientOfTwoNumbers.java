@@ -7,9 +7,9 @@ public class QuotientOfTwoNumbers {
      */
         int num1 = 10;
         int num2 = 5;
-        System.out.println(solution(num1, num2));
+        System.out.println(Solution(num1, num2));
     }
-    static int solution(int num1, int num2) {
+    static int Solution(int num1, int num2) {
         int answer = num1 / num2;
         return answer;
     }
