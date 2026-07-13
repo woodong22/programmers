@@ -7,10 +7,10 @@ public class SubtractTwoNumbers {
          */
         int num1 = 2;
         int num2 = 3;
-        System.out.println(solution(num1, num2));
+        System.out.println(Solution(num1, num2));
     }
 
-    static int solution(int num1, int num2) {
+    static int Solution(int num1, int num2) {
         int answer = num1-num2;
         return answer;
     }
