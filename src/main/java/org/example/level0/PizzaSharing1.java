@@ -11,12 +11,12 @@ public class PizzaSharing1 {
     }
 
     static int Solution(int n) {
-        int answer = n / 7;
+        int pizza = n / 7;
 
         if (n % 7 != 0) {
-            answer++;
+            pizza++;
         }
 
-        return answer;
+        return pizza;
     }
 }
