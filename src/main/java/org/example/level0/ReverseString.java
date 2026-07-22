@@ -6,10 +6,10 @@ public class ReverseString {
 
          */
         String my_string = "jaron";
-        System.out.println(ReverseString(my_string));
+        System.out.println(solution(my_string));
     }
 
-    static String ReverseString(String my_string) {
+    static String solution(String my_string) {
         String answer = "";
 
         for (int i = my_string.length() - 1; i >= 0; i--) {
