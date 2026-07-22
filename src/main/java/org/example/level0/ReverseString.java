@@ -6,14 +6,14 @@ public class ReverseString {
 
          */
         String my_string = "jaron";
-        System.out.println(solution(my_string));
+        System.out.println(ReverseString(my_string));
     }
 
-    static String solution(String my_string) {
+    static String ReverseString(String my_string) {
         String answer = "";
 
         for (int i = my_string.length() - 1; i >= 0; i--) {
-            answer += my_string.charAt(i);
+            answer = answer + my_string.charAt(i);
         }
 
         return answer;
