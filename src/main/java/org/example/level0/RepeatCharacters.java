@@ -2,7 +2,7 @@ package org.example.level0;
 
 public class RepeatCharacters {
     public static void main(String[] args) {
-        String text= "hello";
+        String text= "hello!";
         String answer = solution(text, 3);
 
         System.out.println(answer);
